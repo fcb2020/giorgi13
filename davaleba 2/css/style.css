@@ -1,3 +1,294 @@
-h1 {
-    color: black;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@165&display=swap');
+
+
+body {
+    margin: 0;
+    background-image: url(/img/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 1%;
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+.collapse .navbar-nav .nav-item .nav-link  {
+    color: white;
+    padding: 20px;
+    /* padding: 0px 40px 0px 0px; */
+    
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #45c5ef;
+}
+
+.collapse .navbar-nav .nav-item:last-child a {
+    padding: 7px 37px 7px 37px;
+    border-radius: 35px;
+    background-color: #45c5ef;
+    margin: 15px 0px 0px 45px;
+}
+
+
+.collapse .navbar-nav .nav-item:last-child a:hover {
+    color: #45c5ef;
+    background-color: white;
+}
+
+
+
+
+.container-fluid img {
+    width: 10%;
+    margin-left: 30%;
+}
+
+@media (max-width:991px) {
+    .container-fluid img {
+        display: none;
+        
+        
+        
+    }
+
+}
+
+.container-fluid a {
+    left: 150%;
+}
+
+.collapse {
+    
+    margin-right: auto;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.colormix {
+    background: rgb(166,36,82);
+    background: linear-gradient(90deg, rgba(166,36,82,0.8015581232492998) 20%, rgba(43,122,138,0.7987570028011204) 80%);
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    padding: 25px 117px 0px 80px;
+}
+
+.text {
+    width: 33.3333%;
+}
+
+.text h1 {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 33%;
+    margin-bottom: 3%;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3%;
+}
+
+h1,h2,p{
+    color: white;
+}
+
+.start {
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 2px solid white;
+}
+
+.video {
+
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    background-color: #45c5ef;
+    color: white;
+    border: none;
+    margin-left: 10px;
+
+}
+
+.mainreg {
+    background-color: white;
+    width: 33.3333%;
+    text-align: center;
+    margin-top: 6%;
+    padding: 30px;
+    border-radius: 5px;
+    padding-bottom: 60px;
+}
+
+.mainreg h1 {
+    color: #565f66;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #dadada;
+    margin: 17px;
+    padding-bottom: 15px;
+}
+
+.inputbox {
+    border: none;
+    outline: none;
+    width: 90%;
+    
+}
+
+.inputlist {
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin: 15px
+}
+
+.inputlist i {
+    margin-left: -5px;
+    margin-top: -19px;
+    position: absolute;
+    color: #afafaf
+}
+
+.now  {
+    margin-top: 20px;
+}
+
+.now a {
+    text-decoration: none;
+    background-color: #45c5ef;
+    color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px 40%;
+    
+}
+
+.now:hover {
+    color: white;
+}
+
+@media (max-width:1424px) {
+    .now a {
+        padding: 10px 35%;
+    }
+}
+
+@media (min-width:700px)(min-width:900px) {
+    .now a {
+        padding: 10px 20%;
+    }
+
+}
+
+@media (max-width:1141px) {
+    .video {
+        margin: 10px 10px 0px 0px;
+    }
+    .now a {
+        padding: 10px 30%;
+    }
+
+
+    
+
+}
+
+
+
+
+@media (max-width:800px) {
+    .video {
+        margin: 10px 0px 0px 0px;
+    }
+
+    
+
+    .inputbox {
+        width: 70%;
+    }
+    .inputlist i { 
+        margin-right: -50px;
+    }
+
+    .now a {
+        padding: 10px 20%;
+    }
+
+    .now a {
+        padding: 10px 20%;
+    }
+
+
+
+
+}
+
+@media (max-width:700px) {
+    .content {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+    }
+    .mainreg {
+        justify-content: space-around;
+        width: 50%;
+        padding: 5px;
+    }
+    .collapse .navbar-nav .nav-item {
+        margin-left: auto;
+    }    
+    
+    .text h1 {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .text p {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    .video {
+        
+        margin: 10px 0px 0px 0px;
+    }
+    .colormix {
+        max-width: 100%;
+    }
+
+    .now a {
+        padding: 5px;
+    }
+
+        
+        
+    
+
+}
+
+
+
+
+
