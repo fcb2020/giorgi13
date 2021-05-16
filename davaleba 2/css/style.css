@@ -178,7 +178,7 @@ h1,h2,p{
     color: white;
     border-radius: 15px;
     margin-top: 10px;
-    padding: 10px 40%;
+    padding: 10px 36%;
     
 }
 
@@ -186,107 +186,74 @@ h1,h2,p{
     color: white;
 }
 
-@media (max-width:1424px) {
-    .now a {
-        padding: 10px 35%;
-    }
-}
-
-@media (min-width:700px)(min-width:900px) {
-    .now a {
-        padding: 10px 20%;
-    }
-
-}
-
 @media (max-width:1141px) {
-    .video {
-        margin: 10px 10px 0px 0px;
-    }
     .now a {
         padding: 10px 30%;
     }
-
-
-    
-
-}
-
-
-
-
-@media (max-width:800px) {
     .video {
-        margin: 10px 0px 0px 0px;
-    }
-
-    
-
-    .inputbox {
-        width: 70%;
+        margin: 10px 10px 0px 0px;
     }
     .inputlist i { 
-        margin-right: -50px;
+        margin-left: -15px;
     }
 
-    .now a {
-        padding: 10px 20%;
-    }
-
-    .now a {
-        padding: 10px 20%;
-    }
-
-
-
-
+    
 }
 
-@media (max-width:700px) {
+@media (max-width: 900px) {
     .content {
         display: block;
         width: 100%;
         text-align: center;
 
     }
+
     .mainreg {
-        justify-content: space-around;
         width: 50%;
-        padding: 5px;
-    }
-    .collapse .navbar-nav .nav-item {
-        margin-left: auto;
-    }    
-    
-    .text h1 {
-        width: 100%;
-        text-align: center;
-        
-    }
-    .text p {
-        width: 100%;
-        text-align: center;
-        font-size: 15px;
 
-    }
-
-    .video {
-        
-        margin: 10px 0px 0px 0px;
-    }
-    .colormix {
-        max-width: 100%;
     }
 
     .now a {
-        padding: 5px;
+        padding: 10px 10%;
+        
     }
+}
 
-        
-        
+@media (max-width:550px) {
+    .mainreg {
+        width: 80%;
+
+    }
+    .now a {
+        padding: 10px 10%;
+    }
     
 
 }
+
+@media (max-width:400px) {
+    .mainreg {
+        width: 100%;
+        padding: 5px;
+
+    }
+    .inputbox {
+        width: 80%;
+    }
+
+    .inputbox i {
+        margin-right: -10px;
+    }
+    .now a {
+        padding: 10px 10%;
+    }
+    
+
+}
+
+
+
+
 
 
 
