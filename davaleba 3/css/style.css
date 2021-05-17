@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: #e2e4f2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    
+}
+
+.box1 {
+    background-color: white;
+    width: 43.33333%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px 20px 0px 20px;
+}
+
+.box1 h1 {
+    font: 33px;
+    margin-top: 45px;
+
+}
+
+.box1 i {
+    color: blue;
+    font-size: 45px;
+}
+
+#email {
+    width: 100%;
+    background-color: #ebebeb;
+    padding: 13px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.btn {
+    background-color: #0020ff;
+    width: 100%;
+    color: white;
+    padding: 13px;
+    outline: none;
+    border: none;
+    margin: 10px 0px 0px 0px;
+    border-radius: 20px;
+
+}
+
+.box2 {
+    width: 33.3333%;
+    margin: auto;
+    
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.images img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.icon i:last-child {
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 12px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    margin: -10px 0px 0px 0px;
+}
+
+.searchbar {
+    width: 60%;
+    margin: auto;
+    height: fit-content;
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.bi-search {
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    margin-left: -40px;
+    margin-top: 10px;
+    
+}
+
+
+.bi-filter-square-fill {
+    position: absolute;
+    margin: -3px 0px 0px 0px;
+    font-size: 55px;
+    color: blue;
+    
+}
+
+#search {
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+@media (max-width: 720px) {
+    .container {
+        display: block;
+        width: 100%;
+    }
+    .searchbar, .box1, .box2 {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    ..bi-filter-square-fill {
+        position: relative;
+    }
+
+    
+    .bi-search {
+        display: none;
+    }
+}
