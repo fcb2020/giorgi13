@@ -1,0 +1,142 @@
+@font-face {
+    font-family: nino;
+    src: url(../fonts/bpg_nino_mtavruli_normal_[FONTS.GE]/bpg_nino_mtavruli_normal.otf);
+}
+
+@media (min-width: 1431px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1100px;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.uppernav {
+    position: absolute;
+    width: 100%;
+    background-color: #393b349f;
+    z-index: 9999;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.lang a {
+    color: #ffff;
+    font-family: nino;
+    font-size: 15px;
+}
+
+.rightlist a {
+    color: #ffff;
+    font-size: 15px;
+    font-family: nino;
+    padding-left: 13px;
+}
+
+.bg-light {
+    background-color: #f8f9fa!important;
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    z-index: 9999;
+    border-top: 1px solid #6a6a6a;
+    padding: 21px 0px 21px 0px;
+    height: 105px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    font-family: nino;
+    color: #6b6b6b;
+    font-size: 17px;
+    margin: 0px 0px 0px 35px;
+}
+
+.navbar-nav .nav-link img {
+    padding-right: 17px;
+    /* margin-right: 17px; */
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    margin-top: 22px;
+}
+
+.navbar-nav:focus-visible {
+    border-bottom: 2px solid red;
+}
+
+
+
+.text {
+    position: absolute;
+    margin-top: 325px;
+    z-index: 9999;
+
+}
+
+.text h1 { 
+    color: #ffff;
+    font-family: nino;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 17px;
+    font-family: nino;
+    color: #ffff;
+    margin-top: 7px;
+}
+
+.text a {
+    width: 188px;
+    height: 49px;
+    background-color: #e23848;
+    color: #ffff;
+    text-align: center;
+    padding: 13px 35px 17px 35px;
+    
+}
+
+.srulad {
+    margin-top: 53px;
+}
+
+.carousel-inner {
+    position: relative;
+    height: 728px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* .surati {
+    margin: 4px;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    padding: 5px;
+} */
+
+.card-group {
+    margin-top: 33px;
+    margin-bottom: 60px;
+    
+    
+}
+
+.container .card {
+    margin: 10px;
+    
+}
