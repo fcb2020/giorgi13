@@ -1,0 +1,29 @@
+body {
+    background-color: brown;
+}
+
+.main {
+    
+    margin: auto;
+    width: 285px;
+    margin-top: 20%;
+    padding: 20px;
+    
+
+}
+
+input {
+    border: none;
+    outline: none;
+    
+}
+
+.main2{
+     background-color: white;
+     border-radius: 1px;
+     padding: 5px 5px 5px 5px;
+}
+
+button {
+    border: none;
+}
