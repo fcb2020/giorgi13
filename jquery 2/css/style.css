@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(114, 114, 114) !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container { 
+    width: 800px !important;
+    height: 500px;
+    background-color: rgb(4, 45, 58);
+    color: white;
+    margin-top: 100px;
+}
+
+
+ 
+.col-md-6 { 
+    text-align: center;
+    margin-top: 300px !important;
+     
+    
+}
+
+
+
+
+.regform {
+    position: absolute;
+    width: 320px !important;
+    height: 500px !important;
+    margin-top: -50px !important;
+    margin-left: 30px !important;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+#loginform {
+ margin-top: 25%;
+ color: black;
+}
+
+#reg {
+    margin-top: 25%;
+    color: black;
+    
+}
+
+.backbtn1 {
+    outline: none;
+    padding: 10px 100px;
+    border: 1px solid white;
+    background-color: rgb(4, 45, 58);
+    color: white;
+    border-bottom: 1px solid royalblue;
+    border-right: 1px solid royalblue;
+}
+
+.backbtn1:hover {
+    background-color: white;
+    color: rgb(4, 45, 58);
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+
+}
+
+.backbtn2 {
+    outline: none;
+    padding: 10px 100px;
+    border: 1px solid white;
+    background-color: rgb(4, 45, 58);
+    color: white;
+}
+
+.backbtn2:hover {
+    background-color: white;
+    color: rgb(4, 45, 58);
+
+}
+
